@@ -3,19 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DBE5D5725001E4E00E937D5 /* VideosListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE5D5625001E4E00E937D5 /* VideosListVC.swift */; };
+		5935F9EB24FA514900DC72FA /* SubscriptionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5935F9EA24FA514900DC72FA /* SubscriptionResponse.swift */; };
 		593C770E24D2D7A800FA7114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C770D24D2D7A800FA7114 /* AppDelegate.swift */; };
 		593C771024D2D7A800FA7114 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C770F24D2D7A800FA7114 /* SceneDelegate.swift */; };
 		593C771224D2D7A800FA7114 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C771124D2D7A800FA7114 /* ViewController.swift */; };
 		593C771524D2D7A800FA7114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593C771324D2D7A800FA7114 /* Main.storyboard */; };
 		593C771724D2D7BA00FA7114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 593C771624D2D7BA00FA7114 /* Assets.xcassets */; };
 		593C771A24D2D7BA00FA7114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593C771824D2D7BA00FA7114 /* LaunchScreen.storyboard */; };
+		593DA6F1252A91BD0029FCE9 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593DA6F0252A91BD0029FCE9 /* DashboardViewController.swift */; };
+		593FC72024F417EA002FB06D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593FC71F24F417EA002FB06D /* TableViewCell.swift */; };
+		596CA24424E660D300A2D9AA /* VideoCategoryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596CA24324E660D300A2D9AA /* VideoCategoryListVC.swift */; };
+		597F9651252F298500552965 /* SubscriberChannalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593DA6F4252A945F0029FCE9 /* SubscriberChannalViewController.swift */; };
+		599ADF4D24F4EB5F0055D35B /* Sports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599ADF4C24F4EB5F0055D35B /* Sports.swift */; };
+		59A4F4162500AFA900D3A64E /* VideoVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4F4152500AFA900D3A64E /* VideoVCTableViewCell.swift */; };
+		59A4F4182500D9FD00D3A64E /* ShowingVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A4F4172500D9FD00D3A64E /* ShowingVideoVC.swift */; };
+		59A9AFA224E3C52200D85F48 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59A9AFA124E3C52200D85F48 /* GoogleService-Info.plist */; };
+		ADCB588D52A3D01EF38FFEB0 /* Pods_YSignInAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFD840565949AAE5880EBDF /* Pods_YSignInAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DBE5D5625001E4E00E937D5 /* VideosListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosListVC.swift; sourceTree = "<group>"; };
+		2484C02E952D7BA435F25EC5 /* Pods-YSignInAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSignInAPI.debug.xcconfig"; path = "Target Support Files/Pods-YSignInAPI/Pods-YSignInAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		5935F9EA24FA514900DC72FA /* SubscriptionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionResponse.swift; sourceTree = "<group>"; };
 		593C770A24D2D7A800FA7114 /* YSignInAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSignInAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		593C770D24D2D7A800FA7114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		593C770F24D2D7A800FA7114 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,16 @@
 		593C771624D2D7BA00FA7114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		593C771924D2D7BA00FA7114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		593C771B24D2D7BA00FA7114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		593DA6F0252A91BD0029FCE9 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		593DA6F4252A945F0029FCE9 /* SubscriberChannalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberChannalViewController.swift; sourceTree = "<group>"; };
+		593FC71F24F417EA002FB06D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		596CA24324E660D300A2D9AA /* VideoCategoryListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCategoryListVC.swift; sourceTree = "<group>"; };
+		599ADF4C24F4EB5F0055D35B /* Sports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sports.swift; sourceTree = "<group>"; };
+		59A4F4152500AFA900D3A64E /* VideoVCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoVCTableViewCell.swift; sourceTree = "<group>"; };
+		59A4F4172500D9FD00D3A64E /* ShowingVideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingVideoVC.swift; sourceTree = "<group>"; };
+		59A9AFA124E3C52200D85F48 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BDFD840565949AAE5880EBDF /* Pods_YSignInAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YSignInAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0D4C58CF4A5930270577D0 /* Pods-YSignInAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSignInAPI.release.xcconfig"; path = "Target Support Files/Pods-YSignInAPI/Pods-YSignInAPI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADCB588D52A3D01EF38FFEB0 /* Pods_YSignInAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		549197C77C9B1F1B6435857C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2484C02E952D7BA435F25EC5 /* Pods-YSignInAPI.debug.xcconfig */,
+				DE0D4C58CF4A5930270577D0 /* Pods-YSignInAPI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		593C770124D2D7A700FA7114 = {
 			isa = PBXGroup;
 			children = (
 				593C770C24D2D7A800FA7114 /* YSignInAPI */,
 				593C770B24D2D7A800FA7114 /* Products */,
+				549197C77C9B1F1B6435857C /* Pods */,
+				CE51E327A869F652EC348180 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +94,63 @@
 			children = (
 				593C770D24D2D7A800FA7114 /* AppDelegate.swift */,
 				593C770F24D2D7A800FA7114 /* SceneDelegate.swift */,
-				593C771124D2D7A800FA7114 /* ViewController.swift */,
-				593C771324D2D7A800FA7114 /* Main.storyboard */,
+				59808FE924E9978400350E60 /* Cell Files */,
+				59A9AFA124E3C52200D85F48 /* GoogleService-Info.plist */,
+				5972B8B924D4222500B90990 /* Model */,
+				5972B8B624D3FA3900B90990 /* Controller */,
+				5972B8B524D3FA2500B90990 /* View */,
 				593C771624D2D7BA00FA7114 /* Assets.xcassets */,
 				593C771824D2D7BA00FA7114 /* LaunchScreen.storyboard */,
 				593C771B24D2D7BA00FA7114 /* Info.plist */,
 			);
 			path = YSignInAPI;
+			sourceTree = "<group>";
+		};
+		5972B8B524D3FA2500B90990 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				593C771324D2D7A800FA7114 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5972B8B624D3FA3900B90990 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				593C771124D2D7A800FA7114 /* ViewController.swift */,
+				593DA6F0252A91BD0029FCE9 /* DashboardViewController.swift */,
+				596CA24324E660D300A2D9AA /* VideoCategoryListVC.swift */,
+				0DBE5D5625001E4E00E937D5 /* VideosListVC.swift */,
+				59A4F4172500D9FD00D3A64E /* ShowingVideoVC.swift */,
+				593DA6F4252A945F0029FCE9 /* SubscriberChannalViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5972B8B924D4222500B90990 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				599ADF4C24F4EB5F0055D35B /* Sports.swift */,
+				5935F9EA24FA514900DC72FA /* SubscriptionResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		59808FE924E9978400350E60 /* Cell Files */ = {
+			isa = PBXGroup;
+			children = (
+				593FC71F24F417EA002FB06D /* TableViewCell.swift */,
+				59A4F4152500AFA900D3A64E /* VideoVCTableViewCell.swift */,
+			);
+			path = "Cell Files";
+			sourceTree = "<group>";
+		};
+		CE51E327A869F652EC348180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDFD840565949AAE5880EBDF /* Pods_YSignInAPI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 593C771E24D2D7BA00FA7114 /* Build configuration list for PBXNativeTarget "YSignInAPI" */;
 			buildPhases = (
+				F4869A31FC9D77846A436978 /* [CP] Check Pods Manifest.lock */,
 				593C770624D2D7A800FA7114 /* Sources */,
 				593C770724D2D7A800FA7114 /* Frameworks */,
 				593C770824D2D7A800FA7114 /* Resources */,
+				6CB03193ABCE680BC7D1D85A /* [CP] Embed Pods Frameworks */,
+				B72B77CCC20A9BB50EAB88DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				593C771A24D2D7BA00FA7114 /* LaunchScreen.storyboard in Resources */,
+				59A9AFA224E3C52200D85F48 /* GoogleService-Info.plist in Resources */,
 				593C771724D2D7BA00FA7114 /* Assets.xcassets in Resources */,
 				593C771524D2D7A800FA7114 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +223,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6CB03193ABCE680BC7D1D85A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YSignInAPI/Pods-YSignInAPI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YSignInAPI/Pods-YSignInAPI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YSignInAPI/Pods-YSignInAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B72B77CCC20A9BB50EAB88DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YSignInAPI/Pods-YSignInAPI-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YSignInAPI/Pods-YSignInAPI-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YSignInAPI/Pods-YSignInAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4869A31FC9D77846A436978 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YSignInAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		593C770624D2D7A800FA7114 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5935F9EB24FA514900DC72FA /* SubscriptionResponse.swift in Sources */,
 				593C771224D2D7A800FA7114 /* ViewController.swift in Sources */,
+				59A4F4182500D9FD00D3A64E /* ShowingVideoVC.swift in Sources */,
 				593C770E24D2D7A800FA7114 /* AppDelegate.swift in Sources */,
+				0DBE5D5725001E4E00E937D5 /* VideosListVC.swift in Sources */,
 				593C771024D2D7A800FA7114 /* SceneDelegate.swift in Sources */,
+				593FC72024F417EA002FB06D /* TableViewCell.swift in Sources */,
+				59A4F4162500AFA900D3A64E /* VideoVCTableViewCell.swift in Sources */,
+				597F9651252F298500552965 /* SubscriberChannalViewController.swift in Sources */,
+				593DA6F1252A91BD0029FCE9 /* DashboardViewController.swift in Sources */,
+				599ADF4D24F4EB5F0055D35B /* Sports.swift in Sources */,
+				596CA24424E660D300A2D9AA /* VideoCategoryListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +440,7 @@
 		};
 		593C771F24D2D7BA00FA7114 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2484C02E952D7BA435F25EC5 /* Pods-YSignInAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +459,7 @@
 		};
 		593C772024D2D7BA00FA7114 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0D4C58CF4A5930270577D0 /* Pods-YSignInAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
